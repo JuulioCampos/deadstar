@@ -30,9 +30,9 @@
                   <div class="form-group">
                     <input name="pass-user" type="password" class="form-control" placeholder="password">
                   </div>
-                  <div class="check-box">
+                  <!-- <div class="check-box">
                     <input type="checkbox" id="remeber" name="remember" class="remember"><span>remember me</span>
-                  </div>
+                  </div> -->
 
                   <?php if(isset($_GET['login']) && $_GET['login'] == 'erro'){?>
 

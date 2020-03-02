@@ -1,4 +1,11 @@
-
+<script type="text/javascript">
+  $('ul li').click(function() {
+      $(this).siblings('li').removeClass('active');
+      $(this).addClass('active');
+      
+      return false;
+  });
+</script>
 <nav class="navbar navbar-dark bg-dark">
     <div class="indent">
       <a class="navbar-brand" href="#">
@@ -7,11 +14,11 @@
       </a>
       <div class="menu-items navbar-menu">
         <ul class="menubar">
-          <li class="menu-items"><a href="home.php">HOME</a></li>    
-          <li class="menu-items"><a href="ticket.php">TICKET</a></li>    
-          <li class="menu-items"><a href="profile.php">PROFILE</a></li>    
+          <li class="menu-items active" target="iframe"><a href="home.php">HOME</a></li>    
+          <li class="menu-items" target="iframe"><a href="ticket.php">TICKET</a></li>    
+          <li class="menu-items" target="iframe"><a href="profile.php">PROFILE</a></li>    
           <li class="menu-items" target="_blank" href="https://discord.gg/VjEAzun" style="word-spacing: 0px;"><a href="/buy-subcribe.php">BUY SUBSCRIBE</a></li>    
-          <li class="menu-items"><a target="_blank" href="https://discord.gg/VjEAzun">DISCORD</a></li>    
+          <li class="menu-items" ><a target="_blank" href="https://discord.gg/VjEAzun">DISCORD</a></li>    
           <li class="menu-items" style="
                                         background-color: #7910a8;
                                         border: black 9px;
