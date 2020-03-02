@@ -26,6 +26,11 @@
     color:rgba(217, 142, 252, 0.938);
     font-weight: 600;
 }
+
 .navbar-brand{
     margin:0px;
+}
+.menu-items.active a{
+    color:rgba(217, 142, 252, 0.938);
+    font-weight: 600;
 }

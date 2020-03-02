@@ -1,0 +1,38 @@
+.form-ticket{
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+.form-control{
+    color:#7910a8;
+    font-weight: 500;
+}
+.form-ticket ::placeholder{
+    color: #7910a8;
+    font-weight: 500;
+}
+
+.ticket-message{
+    margin:0 auto;
+    border-radius: 1%;
+    text-align: left;
+    width: 99%;
+    margin-bottom: 10px;
+    color: #7910a8;
+}
+.col-md-4.mb-3 {
+    color: white;
+}
+.btn.btn-primary{
+    background-color: rgb(65, 13, 88) !important;
+    font-family: 'Darker Grotesque';
+    border-color: black;
+    margin: 0 auto;
+    display: flex;
+}
+.btn.btn-primary:hover {
+    background-color: #7910A8 !important;
+    border-color: white;
+
+}

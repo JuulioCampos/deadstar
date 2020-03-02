@@ -1,0 +1,20 @@
+.video-demo{
+    margin: 0 auto ;
+    margin-top: 5vh;
+}
+.video-demo h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px !important;
+}
+.video-demo iframe{
+    -webkit-box-shadow: 0px 8px 12px 4px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 8px 12px 4px rgba(0,0,0,0.25);
+    box-shadow: 0px 8px 12px 4px rgba(0,0,0,0.25);
+}
+body{
+    background-color: #7910A8;
+}
