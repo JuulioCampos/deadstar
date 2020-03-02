@@ -1,0 +1,31 @@
+.navbar-brand {
+    font-size: 1.6rem;
+    overflow: hidden;
+    z-index: 10;
+}
+.navbar{
+    padding: 0px
+}
+.menubar li{
+    display: inline;
+    list-style:none;
+    padding:0px;
+    margin:0px;
+    word-spacing: 1vh;
+}
+.menubar {
+    margin: 0 auto;
+    word-spacing: 2vh;
+}
+.menubar li a{
+    text-decoration: none;
+    list-style: none;
+    color:white ;
+}
+.menubar li a:hover{
+    color:rgba(217, 142, 252, 0.938);
+    font-weight: 600;
+}
+.navbar-brand{
+    margin:0px;
+}
